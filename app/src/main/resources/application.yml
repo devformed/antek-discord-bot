@@ -1,0 +1,5 @@
+antek-bot:
+  name: 'Antek'
+  token: '${BOT_TOKEN}'
+  id: '1269018766545653810'
+  author-id: '469189070380072962'
