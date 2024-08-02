@@ -7,7 +7,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 /**
  * @author Anton Gorokh
  */
-@ConfigurationProperties("bot")
+@ConfigurationProperties("antek-bot")
 public record BotConfig(
 		String id,
 		String authorId,
