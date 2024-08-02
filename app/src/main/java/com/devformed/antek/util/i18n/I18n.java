@@ -48,7 +48,7 @@ public final class I18n {
 
 	private static String applyPlaceholders(String translation, Map<String, String> placeHolders) {
 		for (Map.Entry<String, String> entry : placeHolders.entrySet()) {
-			translation = translation.replaceAll("{%s}".formatted(entry.getKey()), entry.getValue());
+			translation = translation.replaceAll("\\{%s}".formatted(entry.getKey()), entry.getValue());
 		}
 		return translation;
 	}
